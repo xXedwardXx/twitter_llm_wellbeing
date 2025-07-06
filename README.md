@@ -19,7 +19,7 @@ For each file within the repository, the name of the file, a link to the file, a
 - Python code extracting tweets for identified resident users, sampling to reduce data to a manageable volume where the resident user has published more than 50 tweets in a month. 
 ---
 ### llm_call_per_user_month_tweet_block.py
-- x
+- https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/llm_call_per_user_month_tweet_block.py
 - the application
  - loads and merges csv files containing user-month tweet data
  - samples user months down to a volume that may be contained within the GPT4o-mini context window 

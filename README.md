@@ -1,10 +1,13 @@
 # twitter_llm_wellbeing
 
-Various code blocks constituting a data analytics pipeline extracting tweet data and analysing well-being using an LLM.
+Various code blocks constitute a data analytics pipeline extracting tweet data and analysing well-being using an LLM.
 
-The porject...
+The project...
 
-For each file within the repository, the name of the file, a link to the file, and an explination of the file and its contents is given below:
+nb: Some degree of data wrangling and iterative batch processing was required to acquire a dataset of tweets published by 'resident users', 
+and the interaction with the LLM was carried out as a one-off exercise for the full dataset, hence the pipeline is delineated into multiple applications/files. 
+
+For each file within the repository, the name of the file, a link to the file, and an explanation of the file and its contents are given below:
 
 ---
 
@@ -12,9 +15,19 @@ For each file within the repository, the name of the file, a link to the file, a
 ---
 ### twitter_llm_output_nlp_env.yml
 - https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/onward_nlp_pipeline.py
-- a .yml file containing the package environment used to develope and execute the ...
+- a .yml file containing the package environment used to develop and execute the ...
 
 ---
 ### onward_nlp_pipeline.py
-- xxx
-- xxx
+- https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/onward_nlp_pipeline.py
+- a .py file containing Python code used to carry out analysis of data output by the LLM in JSON format
+- the application:
+  - loads data from JSON source files
+  - carries out simple EDA and calculates some summary statistics
+  - performs pre-processing, filtering based on confidence levels, and cleansing topic data
+  - cross-references LLM-derived mean happiness and anxiety levels against published ONS statistics
+  - performs month-on-month longitudinal analysis of happiness and anxiety levels
+  - word cloud visualisations
+  - TF-IDF experimentation (not included in final analysis)
+  - statistical modelling of data aggregated to a monthly prevalence measure
+  - outputs visualisations

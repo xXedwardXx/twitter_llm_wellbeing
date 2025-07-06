@@ -2,7 +2,7 @@
 
 Various code blocks constitute a data analytics pipeline extracting tweet data and analysing well-being using an LLM.
 
-The project...
+The project involved the sourcing of tweets resident-users (users of the platform having been identified as residents in a specified geospatial area); the processing of these tweet data in user-month blocks via an LLM (GPT4o-mini) to return inferences as to the wellbeing of the resident-user in structured JSON format; then the analysis of those input data to derive novel insights into the prevelance of thematic drivers of well-being. 
 
 nb: Some degree of data wrangling and iterative batch processing was required to acquire a dataset of tweets published by 'resident users', 
 and the interaction with the LLM was carried out as a one-off exercise for the full dataset, hence the pipeline is delineated into multiple applications/files. 

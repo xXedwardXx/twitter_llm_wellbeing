@@ -20,12 +20,12 @@ For each file within the repository, the name of the file, a link to the file, a
 ---
 ### llm_call_per_user_month_tweet_block.py
 - https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/llm_call_per_user_month_tweet_block.py
-- the application
- - loads and merges csv files containing user-month tweet data
- - samples user months down to a volume that may be contained within the GPT4o-mini context window 
- - constructs a prompt to make inferences as to the well-being of resident-users
- - parses completion data to JSON format
- - stores completions locally as JSON files
+- the application:
+  - loads and merges csv files containing user-month tweet data
+  - samples user months down to a volume that may be contained within the GPT4o-mini context window 
+  - constructs a prompt to make inferences as to the well-being of resident-users
+  - parses completion data to JSON format
+  - stores completions locally as JSON files
 ---
 ### twitter_llm_output_nlp_env.yml
 - https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/twitter_llm_output_nlp_env.yml

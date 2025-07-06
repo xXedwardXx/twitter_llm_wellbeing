@@ -16,7 +16,7 @@ For each file within the repository, the name of the file, a link to the file, a
 
 ---
 ### twitter_llm_output_nlp_env.yml
-- https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/onward_nlp_pipeline.py
+- https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/twitter_llm_output_nlp_env.yml
 - a .yml file containing the package environment used to develop and execute the ...
 
 ---

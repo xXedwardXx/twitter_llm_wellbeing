@@ -12,7 +12,7 @@ For each file within the repository, the name of the file, a link to the file, a
 ---
 ### geospatial_tweet_extraction.py
 - https://github.com/xXedwardXx/twitter_llm_wellbeing/blob/main/geospatial_tweet_extraction.py
-- python code sourcing geospatial administrative data, re-modeling those data, using re-modeled data to query the Twitter full archive search endpoint, and storing returned tweet data
+- python code sourcing geospatial administrative data, re-modelling those data, using re-modelled data to query the Twitter full archive search endpoint, and storing returned tweet data
 
 ---
 ### twitter_llm_output_nlp_env.yml

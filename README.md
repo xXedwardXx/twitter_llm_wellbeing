@@ -1,11 +1,10 @@
 # twitter_llm_wellbeing
 
-Various code blocks constitute a data analytics pipeline extracting tweet data and analysing well-being using an LLM.
+Various Python code blocks constituting a data analytics pipeline extracting tweet data from the Twitter(X) full archive search endpoint and analysing to those for insights into well-being using an LLM (GPT4o-mini).
 
-The project involved the sourcing of tweets resident-users (users of the platform having been identified as residents in a specified geospatial area); the processing of these tweet data in user-month blocks via an LLM (GPT4o-mini) to return inferences as to the wellbeing of the resident-user in structured JSON format; then the analysis of those input data to derive novel insights into the prevelance of thematic drivers of well-being. 
+The project involved the sourcing of tweets resident-users (users of the platform having been identified as residents in a specified geospatial area); the processing of these tweet data in user-month blocks via an LLM (GPT4o-mini) to return inferences as to the well-being of the resident-user; storing completion outputs in JSON format; then analysis of those data to derive novel insights into the prevalence of thematic drivers of well-being over time.
 
-nb: Some degree of data wrangling and iterative batch processing was required to acquire a dataset of tweets published by 'resident users', 
-and the interaction with the LLM was carried out as a one-off exercise for the full dataset, hence the pipeline is delineated into multiple applications/files. 
+nb: Some degree of data wrangling and iterative batch processing was required to acquire a dataset of tweets published by resident-users, and the interaction with the LLM was carried out as a one-off exercise for the full dataset, hence the pipeline is delineated into multiple applications/files.
 
 For each file within the repository, the name of the file, a link to the file, and an explanation of the file and its contents are given below:
 
